@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>Document</title>
+</head>
+<body>
+   <div class="element">
+       <h2>H2 element selector</h2>
+   </div> <br>
+   <div class="idselector">
+       <p id="first">p tag selected as id</p>
+       <p>p tag not selected as id</p>
+   </div> <br>
+<div class="classselector">
+    <h3 class="second">H3 selected as class</h3>
+    <h3>H3 not selected as class</h3>
+</div> <br>
+
+<h2>Combinator selectors</h2> <br><br>
+<h3>Descendant selectors(All p tags are selected) selects child, grandchild etc</h3>
+<div class="third">
+    <h2>h2 tag</h2>
+    <p>First p tag</p>
+    <p>Second p tag</p>
+    <section>
+        <p>Inside the section tag (will be selected)</p>
+    </section>
+</div> <br>
+<h3>Child Selectors selects only child </h3>
+<div class="fourth">
+    <h2>h2 tag</h2>
+    <p>First p tag</p>
+    <p>Second p tag</p>
+    <section>
+        <p>Inside the section tag (Wont be selected)</p>
+    </section>
+</div> <br>
+<h3>Adjacent sibling selector</h3>
+<p class="fifth">First Section tag after this p tag will be selected</p>
+<section>
+    <p>First section tag</p>
+</section>
+<section>
+    <p>Second section tag</p>
+</section> <br>
+
+<h3>General sibling selector</h3>
+<p class="sixth">All Section tags after this p tag will be selected</p>
+<section>
+    <p>First section tag</p>
+</section>
+<section>
+    <p>Second section tag</p>
+</section> <br>
+
+<h2>Pseudo Class selectors</h2>
+<p class="seventh">Hover to turn red</p> <br>
+<p class="eight">Click to turn red</p> <br>
+<h3>Focus selector</h3>
+<input type="text" /> <br>
+<h3>First,Last and 3th child selector</h3>
+<div class="ninth">
+    <h4>First child</h4>
+    <h4>Second child</h4>
+    <h4>Third child</h4>
+    <h4>Fourth child</h4>
+    <h4>Last child</h4>
+</div> <br>
+<h2>Pseudo Elements</h2>
+<h3>First Line</h3>
+<p class="tenth">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita maiores laboriosam magnam dolorum alias architecto hic iste veniam quam ipsam quae, suscipit ducimus itaque voluptates accusamus unde corrupti? Qui, nemo?</p>
+<br>
+<p class="eleventh">Before</p><br>
+<p class="twelth">After</p><br>
+</body>
+</html>

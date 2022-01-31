@@ -1,0 +1,60 @@
+h2{
+    color:red
+}
+#first{
+    color:blue
+}
+
+.second{
+    color:green
+}
+
+.third p{
+    color:blueviolet;
+}
+
+.fourth>p{
+    color:chocolate;
+}
+
+.fifth + section{
+    color:red
+}
+.sixth ~ section{
+    color:red
+}
+
+.seventh:hover{
+color:red;
+}
+
+.eight:active{
+    color:red;
+}
+
+input:focus{
+ background-color: cornflowerblue;
+}
+
+h4:first-child{
+    color: red
+}
+
+h4:last-child{
+    color: blue
+}
+
+h4:nth-child(3){
+    color:cornflowerblue
+}
+
+.tenth::first-line{
+    color:red
+}
+.eleventh::before {
+    content: url(https://img.icons8.com/ios-glyphs/344/apple-app-store.png);
+  }
+
+  .twelth::after {
+    content: url(https://img.icons8.com/ios-glyphs/344/apple-app-store.png);
+  }
