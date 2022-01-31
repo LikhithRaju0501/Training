@@ -1,0 +1,144 @@
+@media screen and (max-width:500px) {
+    /* --------------------------------First Section--------------------------------- */
+    .second{
+        display:grid;
+        grid-template-columns: 1fr;
+    }
+
+    .fourth{
+        display: grid;
+        grid-template-columns:1fr;
+    }
+
+.fifth{
+    color:black;
+    text-align: center;
+    font-family: 'Fraunces', serif;
+    background-color:white;
+    width:50%;
+    height: 15%;
+    padding:7%;
+    border-radius: 100px;
+    margin-left: 25%;
+}
+.seventh{
+    height: 350vh;
+    width:99vw;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 50vh;
+    /* border:1px solid blue */
+}
+
+.far {
+    transform: scale(0.5,5);
+       margin:20% 0 0 50%;
+       color:white
+   }
+/* ------------------------------------------------------------------------ */
+/* ----------------------------------------Second section------------------------------ */
+.footer{
+    height: 115vh;
+    display: grid;
+    grid-template-columns: 100vw;
+    grid-template-rows: 35vh;
+    justify-content: center;
+    align-items: flex-end;
+    font-family: 'Barlow', sans-serif;
+    padding-bottom: 20%;
+}
+
+.emily{
+    width: 100vw;
+    height: 35vh;
+   
+}
+.emily>img{
+    width: 40px;
+    height: 30%;
+    border-radius: 100px;
+}
+.emily>h3{
+    margin-top: 10%;
+}
+.emily>h5{
+    margin-top: 0%;
+    font-size: 0.9rem;
+    padding:0 10%;
+}
+.thomas{
+    width: 100vw;
+    height: 35vh;
+   
+}
+.thomas>img{
+    width: 40px;
+    height: 30%;
+    border-radius: 100px;
+}
+.thomas>h3{
+    margin-top: 10%;
+}
+.thomas>h5{
+    margin-top: 0%;
+    padding:0 10%;
+}
+.jennie{
+    width: 100vw;
+    height: 35vh;
+   
+}
+.jennie>img{
+    width: 40px;
+    height: 30%;
+    border-radius: 100px;
+}
+.jennie>h3{
+    margin-top: 10%;
+}
+.jennie>h5{
+    margin-top: 0%;
+    padding:0 10%;
+}
+/* ------------------------------------------------------------------------ */
+/* --------------------------------Third Section-------------------------------- */
+.fourImg{
+    display: grid;
+    grid-template-columns: repeat(2,50vw);
+}
+.img1st{
+    height: 30vw;
+    width: 50vw;
+    
+}
+.img2nd{
+    height: 30vw;
+    width: 50vw;
+}
+.img3rd{
+    height: 30vw;
+    width: 50vw;
+}
+.img4th{
+    height: 30vw;
+    width: 50vw;
+}
+
+/* ------------------------------------------------------------------------ */
+.endnav{
+    display: grid;
+    grid-template-columns: repeat(3,1fr) ;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15%;
+    margin-top:1%;
+}
+
+.endicon{
+    margin-top:2%;
+    display: grid;
+    grid-template-columns: repeat(4,10vw);
+    justify-content: center;
+}
+
+}

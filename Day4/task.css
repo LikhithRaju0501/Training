@@ -1,0 +1,327 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+/* --------------------------------------First Section----------------------------------- */
+
+
+.first{
+    background-image: url(./images/first.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:99vw;
+    height: 100vh;
+    
+}
+
+.second{
+    padding-top: 1%;
+    padding-left: 1%;
+    height: 27%;
+    width:100%;
+    display:grid;
+    grid-template-columns: 1fr 2fr;
+    justify-content: space-between;
+}
+
+.third{
+    color:white;
+    font-family: 'Barlow', sans-serif;
+    font-size: 1.5rem;
+    /* padding:1% 3% */
+}
+
+.fourth{
+    display: grid;
+    grid-template-columns:2fr 1fr 1fr 1fr 1fr 0.5fr;
+    /* padding-top: 2%; */
+}
+
+.fourth>p{
+    text-align: center;
+    font-family: 'Fraunces', serif;
+    color:white
+}
+
+.fifth{
+    color:black;
+    text-align: center;
+    font-family: 'Fraunces', serif;
+    background-color:white;
+    width:100%;
+    height: 15%;
+    padding:2%;
+    border-radius: 100px;
+}
+
+.sixth{
+    color:white;
+    font-family: 'Fraunces', serif;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.far {
+     transform: scale(0.5,5);
+        margin:10% 0 0 50%;
+        color:white
+    }
+
+/* --------------------------------------------------------------------- */
+
+
+/* --------------------------------------Second Section----------------------------------- */
+
+.seventh{
+    height: 210vh;
+    width:99vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 70vh 70vh;
+    /* border:1px solid blue */
+}
+.eight{
+    font-family: 'Fraunces', serif;
+    text-align: center;
+    padding:10% 15%;
+}
+.eight>h4{
+    font-size: 2.5rem;
+}
+.eight>p{
+    margin-top:4%
+}
+.eight>h5{
+    margin-top:4%
+}
+
+.ninth{
+    /* border:1px solid blue; */
+}
+
+.img1{
+    width:100%;
+    height:70vh ;
+}
+.tenth{
+    /* border:1px solid red; */
+}
+
+.eleventh{
+    /* border:1px solid blue; */
+    font-family: 'Fraunces', serif;
+    text-align: center;
+    padding:10% 15%;
+}
+
+.eleventh>h4{
+    font-size: 2.5rem;
+}
+.eleventh>p{
+    margin-top:4%
+}
+.eleventh>h5{
+    margin-top:4%
+}
+
+
+.img2{
+    width:100%;
+    height:70vh ;
+}
+.twelth{
+    /* border:1px solid red; */
+    background-image: url('./images/fourth.jpg');
+    /* border:1px solid red; */
+    text-align: center;
+    padding:49% 20% 0 20%;
+}
+.twelth>h5{
+    font-family: 'Fraunces', serif;
+    font-size:1.5rem;
+    /* border:1px solid blue */
+}
+.twelth>p{
+    font-family: 'Fraunces', serif;
+    margin-top: 2%;
+    /* border:1px solid blue */
+}
+
+.thirteen{
+    /* border:1px solid blue; */
+    background-image: url('./images/fifth.jpg');
+    text-align: center;
+    padding:49% 20% 0 20%;
+}
+
+.thirteen>h5{
+    font-family: 'Fraunces', serif;
+    font-size:1.5rem;
+    /* border:1px solid blue */
+}
+.thirteen>p{
+    font-family: 'Fraunces', serif;
+    margin-top: 2%;
+    /* border:1px solid blue */
+}
+/* -------------------------------Third section ------------------------------------ */
+.footer{
+    height: 60vh;
+    display: grid;
+    grid-template-columns: 25vw 25vw 25vw;
+    justify-content: center;
+    align-items: flex-end;
+    font-family: 'Barlow', sans-serif;
+    padding-bottom: 20%;
+}
+
+.title{
+    text-align: center;
+    font-family: 'Fraunces', serif;
+    font-size: 1rem;
+    color:grey;
+    margin-top: 10%;
+}
+
+.emily{
+    width: 25vw;
+    height: 60vh;
+    text-align: center;
+    padding:10%;
+    font-size:1rem;
+    font-weight: 500;
+}
+.emily>p{
+    color:grey;
+    font-size: 0.7rem;
+}
+.emily>img{
+    width: 15%;
+    height: 15%;
+    border-radius: 100px;
+}
+
+.emily>h5{
+    margin-top: 20%;
+    color:grey
+}
+.emily>h3{
+    margin-top: 30%;
+}
+
+.thomas{
+    width: 25vw;
+    height: 60vh;
+    text-align: center;
+    padding:10%;
+    font-size:1rem;
+    font-weight: 500;
+}
+.thomas>p{
+    color:grey;
+    font-size: 0.7rem;
+}
+.thomas>img{
+    width: 15%;
+    height: 15%;
+    border-radius: 100px;
+}
+
+.thomas>h5{
+    margin-top: 20%;
+    color:grey
+}
+.thomas>h3{
+    margin-top: 30%;
+}
+
+.jennie{
+    width: 25vw;
+    height: 60vh;
+    text-align: center;
+    padding:10%;
+    font-size:1rem;
+    font-weight: 500;
+}
+.jennie>p{
+    color:grey;
+    font-size: 0.7rem;
+}
+.jennie>img{
+    width: 15%;
+    height: 15%;
+    border-radius: 100px;
+}
+
+.jennie>h5{
+    margin-top: 20%;
+    color:grey
+}
+.jennie>h3{
+    margin-top: 30%;
+}
+
+
+
+
+
+
+/* --------------------------------------------------------------------- */
+/* --------------------------Fourth section------------------------- */
+.fourImg{
+    display: grid;
+    grid-template-columns: repeat(4,25vw);
+}
+
+.img1st{
+    height: 30vw;
+    width: 25vw;
+    
+}
+.img2nd{
+    height: 30vw;
+    width: 25vw;
+}
+.img3rd{
+    height: 30vw;
+    width: 25vw;
+}
+.img4th{
+    height: 30vw;
+    width: 25vw;
+}
+/* -------------------------------------------- */
+
+.ending{
+    height: 40vh;
+    background-color: #a8dadc;
+    font-family: 'Barlow', sans-serif;
+    font-size: 2rem;
+    color:#0a9396;
+    text-align: center;
+    padding:3% 0 3% 0;
+}
+
+.endnav{
+    display: grid;
+    grid-template-columns: 10vw  10vw  10vw ;
+    justify-content: center;
+    margin-right: 15%;
+    margin-top:1%;
+}
+
+.endnav>p{
+    font-size: 1rem;
+    width:25vw;
+}
+
+.endicon{
+    margin-top:2%;
+    display: grid;
+    grid-template-columns: repeat(4,5vw);
+    justify-content: center;
+}
+
