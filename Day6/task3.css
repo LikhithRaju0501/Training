@@ -1,0 +1,61 @@
+body {
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  h1 {
+    text-align: center;
+  }
+  
+  .app {
+    width: 100vw;
+    height: 85vh;
+    background-color: aquamarine;
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: 10vw;
+    justify-content: center;
+    align-content: center;
+  }
+  
+  #red {
+    width: 100vw;
+    height: 85vh;
+    background-color: crimson;
+  }
+  
+  #yellow {
+    width: 100vw;
+    height: 85vh;
+    background-color: yellow;
+  }
+  
+  #green {
+    width: 100vw;
+    height: 85vh;
+    background-color: #68b0ab;
+  }
+  
+  .btn {
+    padding: 10px;
+    background-color: #f4978e;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    font-weight: bolder;
+  }
+  .btn2 {
+    padding: 10px;
+    background-color: #faf3dd;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    font-weight: bolder;
+  }
+  .btn3 {
+    padding: 10px;
+    background-color: #8fc0a9;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    font-weight: bolder;
+  }
+  
