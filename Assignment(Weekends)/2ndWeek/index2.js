@@ -5,7 +5,7 @@ let parent = document.getElementById('parent')
 btn.addEventListener('click',(e)=>{
     e.preventDefault();
     let taskValue = task.value;
-    if(taskValue ==='') {
+    if(taskValue === '') {
         alert("Empty Task");
         return
     }
@@ -43,6 +43,7 @@ function myFunc(a){
  
    if(a==len){
   parent.removeChild(parent.lastElementChild)
+  return
    }else{
        let nextEle;
     for(i=0;i<a-1;i++){
