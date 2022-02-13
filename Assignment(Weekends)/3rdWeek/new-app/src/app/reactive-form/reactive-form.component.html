@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div class="screen">
+        <div class="textPart">
+            <div class="heading">Learn to code by watching others</div>
+            <div class="para">See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
+                but understanding how developers think is invaluable.</div>
+        </div>
+        <div class="formPart">
+           <div class="btn"> <button><div class="btnClass"> <span> Try it free 7 days </span> then $20/mo. thereafter</div></button></div>
+            <div class="subscribe">
+                <form action="" [formGroup]="logIn" (ngSubmit)="onSubmit()">
+                <input type="text" placeholder="First Name" formControlName="fName"> 
+                <small *ngIf="fname['invalid'] && fname['dirty']">Please Enter Valid First Name</small> 
+                <input type="text" placeholder="Last Name" formControlName="lName" >
+                <small *ngIf="lname['invalid'] && lname['dirty']" >Please Enter Valid Last Name</small> 
+                <input type="email" placeholder="Email Address" formControlName="email" email>
+                <small *ngIf="email['invalid'] && email['dirty']">Please Enter Valid Email ID</small> 
+                <input type="password" placeholder="Password" formControlName="password">
+                <small *ngIf="password['invalid'] && password['dirty']">Password should have minimun 6 charecters</small> 
+                 <button  class="submit" [disabled]="logIn.invalid">CLAIM YOUR FREE TRIAL</button>
+                 <div class="label">By clicking the button, you are agreeing to our <span class="terms">Terms and Services</span> </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

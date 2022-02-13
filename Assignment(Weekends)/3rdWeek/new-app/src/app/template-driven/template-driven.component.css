@@ -1,0 +1,192 @@
+.screen{
+    background-image: url(../../assets/bg-intro-desktop.png);
+    background-color: rgba(255, 0, 0, 0.5);
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.textPart{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+.heading{
+    font-size: 2.5rem;
+    font-weight: 900;
+    color:white;
+    text-align: center;
+}
+.para{
+    color:white;
+    padding:4vh 3.1vh 0 3.1vw;
+    font-weight: 400;
+}
+.formPart{
+    display: grid;
+    align-content: center;
+    justify-content: flex-start;
+}
+.btn{
+    margin-bottom: 1vh;
+}
+button{
+    width: 75%;
+    background-color: hsl(228, 45%, 44%); 
+    outline: none;
+    border:none;
+    border-radius: 5px;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+}
+span{
+font-weight: 900;
+}
+
+.btnClass{
+    padding:1.2vh;
+    text-align: center;
+    width:100%;
+    color:white;
+    font-weight: 400;
+}
+
+.subscribe{
+    background-color: white;
+    text-align: center;
+    width: 75%;
+    margin-left: 5vw;
+    padding: 5vh 0 5vh 0;
+    border-radius: 10px;
+}
+input{
+    width: 75%;
+    height: 7vh; 
+    font-size: 0.7em;
+    font-weight: 700;
+    padding-left: 1vw;
+    color:#453750;
+    margin-top: 2vh;
+}
+
+input::placeholder{
+    font-size: 0.9em;
+    font-weight: 900;
+    padding-left: 1vw;
+}
+
+.submit{
+    background-color: #5FDD9D;
+    height: 10vh;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color:white;
+    padding:1vh 0 1vh 0;
+    font-size: 1em;
+    margin-top: 2vh;
+}
+
+.label{
+    text-align: center;
+    font-size: 0.5em;
+    font-family: 'Poppins', sans-serif;
+}
+.terms{
+    color:red
+}
+.submit:disabled,.submit[disabled]{
+    background-color: #DEF6CA;
+}
+
+small {
+    color: #cc0033;
+    display: inline-block;
+    font-size: 0.7em;
+  }
+
+@media only screen and (max-width: 400px) {
+    .screen{
+        background-image: url(../../assets/bg-intro-mobile.png);
+        height: 160vh;
+        display: grid;
+        grid-template-columns: 1fr
+    }
+
+    .textPart{
+       padding:0 5vw 0 5vw;
+       text-align:center ;
+    }
+
+    .heading{
+        font-size: 1.5rem;
+        font-weight: 900;
+        color:white;
+        text-align: center;
+    }
+    .para{
+        color:white;
+        padding:4vh 3.1vh 0 3.1vw;
+        font-weight: 400;
+        font-size: 1em;
+    }
+    .formPart{
+        align-content: flex-start;
+    }
+
+    button{
+        width: 85%;
+        background-color: hsl(228, 45%, 44%); 
+        outline: none;
+        border:none;
+        border-radius: 5px;
+        box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+    }
+
+    .btnClass{
+        padding:1.2vh 10vw 1.2vh 10vw;
+        text-align: center;
+        width:100%;
+        color:white;
+        font-weight: 400;
+    }
+
+    .subscribe{
+        background-color: white;
+        text-align: center;
+        width: 85%;
+        margin-left: 8vw;
+        padding: 5vh 0 5vh 0;
+        border-radius: 10px;
+    }
+    input{
+        margin-bottom: 1vh;
+        width: 85%;
+        height: 10vh;
+        margin-bottom: 2vh; 
+        font-size: 0.7em;
+        font-weight: 700;
+        padding-left: 1vw;
+        color:#453750
+    }
+
+    input::placeholder{
+        font-size: 1.2em;
+    }
+    .submit{
+        background-color: #5FDD9D;
+        height: 10vh;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 700;
+        color:white;
+        padding:1vh 0 1vh 0;
+        font-size: 0.8em;
+    }
+    
+.label{
+    text-align: center;
+    font-size: 0.7em;
+    font-family: 'Poppins', sans-serif;
+}
+  }
