@@ -1,0 +1,61 @@
+.textComp{
+    /* display: grid;
+    align-items: center; */
+    height: 100%;
+    padding-top: 7vh;
+    padding-left: 10vw;
+    background-image: url('../assets/bg-pattern-desktop.svg');
+    background-size: cover;
+}
+
+img{
+    width: 10vw;
+    margin-bottom: 15vh;
+}
+
+.we{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 3em;
+    color:burlywood
+}
+
+.coming{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 3em;
+    font-weight: 800;
+    color:black;
+}
+
+.para{
+    color: burlywood;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1em;
+    margin-right: 13vw;
+    margin-bottom: 6vh;
+}
+
+input{
+    background:none;
+    border-radius: 20px;
+    height: 7vh;
+    width: 30vw;
+    padding-left: 3vw;
+    border-bottom-color: pink;
+    border-top-color: pink;
+}
+
+input::placeholder{  
+    color:burlywood;
+    font-family: 'Josefin Sans', sans-serif;
+}
+button{ 
+    margin-left: -5vw;
+      height: 7vh;
+    width: 5vw;
+    color:white;
+    background-color: pink;
+    border-radius: 20px;
+    border:none;
+}
+
+
