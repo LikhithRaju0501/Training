@@ -1,12 +1,15 @@
 import './App.css';
 import ImageComp from './components/ImageComp';
 import TextComp from './components/TextComp';
+import LogoComp from './components/LogoComp';
+
 
 function App() {
   return (
    <div  className='whole'>
- <div><TextComp/> </div> 
-   <ImageComp /> 
+     <LogoComp />  
+   <ImageComp />
+   <TextComp/> 
    </div>
   );
 }

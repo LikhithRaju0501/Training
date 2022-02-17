@@ -1,8 +1,16 @@
 .imageComp{
     background-image: url('../assets/hero-desktop.jpg');
     background-size: cover;
+    height: 100vh;
 }
 
+
+@media screen and (max-width:500px) {
+    .imageComp{
+        background-image: url('../assets/hero-mobile.jpg');
+        height: 80vh;
+    }
+    }
 
 
 

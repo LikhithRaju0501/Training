@@ -1,0 +1,21 @@
+.logo{
+    /* display: grid;
+    align-items: center; */
+    height: 20vh;
+    padding-top: 7vh;
+    padding-left: 10vw;
+    background-image: url('../assets/bg-pattern-desktop.svg');
+    background-size: cover;
+}
+
+img{
+    width: 10vw;
+    margin-bottom: 15vh;
+}
+
+
+@media screen and (max-width:500px) {
+    img{
+        width: 30vw;
+    }
+    }
