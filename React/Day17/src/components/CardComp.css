@@ -1,0 +1,26 @@
+/* .container{
+    display: flex;
+    width: 250px;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+    background-color: white;
+    border-radius:7px;
+    justify-content: space-between;
+    margin: 1vh 1vw 1vh 1vw;
+    height: 15vh;
+    padding:2vh 1vw
+} */
+.one,.two{
+    background-color: white;
+}
+
+.two{
+    background-color: #55C1FF;
+    padding:9%;
+    border-radius: 10px;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+    color:white;
+    height: 10vh;
+}
+span{
+    font-size: 20px;
+}
