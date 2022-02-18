@@ -1,0 +1,10 @@
+.clickModal{
+    margin-top: 10vh;
+    margin-bottom: 5vh;
+}
+
+.items{
+    display: grid;
+    grid-template-columns: 20vw 20vw 20vw;
+    justify-content: space-evenly;
+}
