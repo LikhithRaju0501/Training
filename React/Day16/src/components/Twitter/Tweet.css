@@ -1,0 +1,53 @@
+.whole{
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+    width: 350px;
+    border-radius: 7px;
+    padding: 7px;
+    margin: 15px;
+}
+/* Section One */
+.section-one{
+    display: flex;
+    align-items: center;
+    width: 200px;
+    justify-content: space-between;
+    padding: 5px;
+}
+/* Action */
+.action{
+    display: flex;
+    align-items: center;
+    width: 150px;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+/* .whole{
+    border: 1px solid black;
+    width: 40vw;
+    height: 30vh;
+    border-radius: 7px;
+    margin: 15px;
+}
+.section-one{
+    display: grid;
+    height: 10vh;
+    grid-template-columns: 2fr 1fr;
+    border:1px solid red
+}
+.tweeter{
+    display: grid;
+    width: 40vw;
+    grid-template-columns: 30vw 10vw;
+    grid-template-rows: 5vh;
+}
+.mainName{
+    width: 20vw;
+    height: 5vh;
+    border:2px solid black
+}
+.twitterHandle{
+    width: 20vw;
+    height: 5vh;
+    border:2px solid black
+} */
