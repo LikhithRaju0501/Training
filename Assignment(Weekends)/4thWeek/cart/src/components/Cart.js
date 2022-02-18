@@ -64,6 +64,7 @@ const Cart = () => {
         const temp=[...ItemList];
         temp.map((item)=>item.quantity=0)
         setItemList(temp)
+        setshowEdit(false)
     }
   return (
     <div>
