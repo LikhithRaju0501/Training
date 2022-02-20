@@ -8,3 +8,25 @@
     grid-template-columns: 20vw 20vw 20vw;
     justify-content: space-evenly;
 }
+
+@media screen and (max-width:740px) {
+    .items{
+        display: grid;
+        grid-template-columns: 35vw 35vw;
+        justify-content: space-evenly;
+    }
+    Card{
+        width:35vw
+    }
+}
+
+@media screen and (max-width:550px) {
+    .items{
+        display: grid;
+        grid-template-columns: 50vw;
+        justify-content: space-evenly;
+    }
+    Card{
+        width:50vw
+    }
+}

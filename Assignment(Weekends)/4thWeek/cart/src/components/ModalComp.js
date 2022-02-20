@@ -1,11 +1,11 @@
-import React from 'react'
+import React, { useState,useEffect } from 'react'
 import { Button,Modal,Table} from 'react-bootstrap'
 
 
 const ModalComp = (props) => {
   return (
     <>
-    <Modal show={props.Show} onHide={props.closeModal}>
+    <Modal centered show={props.Show} onHide={props.closeModal}>
       <Modal.Header closeButton>
         <Modal.Title>C A R T</Modal.Title>
       </Modal.Header>
@@ -22,6 +22,7 @@ const ModalComp = (props) => {
       <th>Sl.No</th>
       <th>Item</th>
       <th>Quantity</th>
+      <th>Cost</th>
       <th>Edit</th>
       <th>Delete</th>
     </tr>
@@ -33,6 +34,7 @@ const ModalComp = (props) => {
       <td>{index+1}</td>
       <td>{item.itemName}</td>
       <td>{item.quantity}</td>
+      <td>{item.quantity*item.cost}</td>
       <td  style={{textAlign:'center'}}>
           <Button variant='success' onClick={()=>props.showInput(item.name)}>Edit</Button></td>
       <td><Button variant='danger' onClick={()=>props.handleDelete(item.name)}>Delete</Button></td>
@@ -41,6 +43,10 @@ const ModalComp = (props) => {
     })}
   </tbody>
 </Table>
+<div>
+  <span style={{fontSize:'1.5em',fontWeight:'400'}}>T O T A L- C O S T: </span> 
+  <span style={{fontSize:'1.7em',fontWeight:'400'}}> {props.totalCost} $</span>
+</div>
       </Modal.Body>
       <Modal.Footer>
         <Button variant="secondary" onClick={props.closeModal}>
