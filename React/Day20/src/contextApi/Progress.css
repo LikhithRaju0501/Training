@@ -1,0 +1,25 @@
+.totalBar{
+    width: 100%;
+    height: 0.7vh;
+    border: 0px solid black;
+    background-color: #C2CAE8;
+    margin-top: 1vh;
+    border-radius: 10px;
+}
+.progressBar{
+    height: 0.7vh;
+    background-color: #8380B6;
+    border-radius: 10px;
+}
+.bad{
+    margin-bottom: 1vh;
+    color:red;
+    font-size: 0.8em;
+    text-align: center;
+}
+.good{
+    margin-bottom: 1vh;
+    color:green;
+    font-size: 0.8em;
+    text-align: center;
+}
